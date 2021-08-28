@@ -6,7 +6,7 @@
 - set up your db config in **lib/db.js**
 - Ensure all required dependencies are installed
 - from the root folder run `npm start` to run the project
-
+- project url `http://127.0.0.1:3000/patients`
 ### Required dependencies
 1.npm install express-flash --save
 
