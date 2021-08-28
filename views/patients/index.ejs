@@ -23,7 +23,7 @@
                     <a class="nav-link">Patients</a>
                 </li>
                 <li class="nav-pill ml-auto">
-                    <a class="nav-link active" href="/Patients/add">Add Patient</a>
+                    <a class="nav-link active" href="/patients/add">Add Patient</a>
                 </li>
             </ul>
         </div>
@@ -50,7 +50,7 @@
                     <td><%= data[i].phone%></td>
                     <td><%= data[i].date_visited%></td>
                     <td>
-                        <a class="btn btn-success edit" href="../Patients/edit/<%=data[i].id%>">Edit</a>
+                        <a class="btn btn-success edit" href="../patients/edit/<%=data[i].id%>">Edit</a>
                         <a class="btn btn-danger delete" onclick="return alert('Are You sure?')" href="../Patients/delete/<%=data[i].id%>">Delete</a>
                     </td>
                 </tr>
